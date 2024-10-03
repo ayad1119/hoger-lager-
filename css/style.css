@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    background-image:url('/img/back1.jpg')
 }
 
 h1{
@@ -29,23 +30,11 @@ font-style:double;
 
 }
 
- /* #hoger{
-    margin-left: 700px;
-    margin-top: 150px;
-font-size: 37px;}
-#lager{
-    margin-left: 1100px;
-    margin-bottom: 10px;
-    font-size: 37px;}
-
-#start{
-    margin-left: 900px;
-    margin-top: 80px; */
-    
 
 .container{
     text-align: center;
     margin-top: 300px;
+    margin-bottom: 100px;
 }
 
 button{
@@ -64,4 +53,25 @@ color: white
     justify-content: space-between;
     width: 80%;
     height: 80%;
+}
+
+.time-bar, .player-one-score, .player-two-score {
+    position: fixed;
+    top: 8%;
+    height: 6%;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.time-bar {
+    background-color: #222222;
+    left: 45%;
+    width: 10%;
+}
+
+.score{
 }
