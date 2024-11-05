@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         player1Button.textContent = "Player 1: 0";
         player2Button.textContent = "Player 2: 0";
 
-        // Start the timer
+        
         if (timer) {
             clearInterval(timer); 
         }
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
         isPlayer1Turn = !isPlayer1Turn;
     }
 
-    // Event listeners for "Hoger" and "Lager" buttons
+    
     hogerButton.addEventListener("click", updateScore);
     lagerButton.addEventListener("click", updateScore);
 });
