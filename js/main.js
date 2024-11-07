@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const player1Button = document.querySelector(".spel1");
     const player2Button = document.querySelector(".spel2");
     const timeBar = document.querySelector(".time-bar");
-    const hogerButton = document.getElementById("hoger");
-    const lagerButton = document.getElementById("lager");
-    const startButton = document.getElementById("start");
+    const hogerButton = document.querySelector("#hoger");
+    const lagerButton = document.querySelector("#lager");
+    const startButton = document.querySelector("#start");
 
    
     function updateTime() {
